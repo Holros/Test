@@ -1,0 +1,69 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.application{
+    height:100vh;
+    width: 100vw;
+    background-color: white;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.header p{
+    color: purple;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.header h2{
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 67rem;
+}
+input, select{
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.half_input, .full_input{
+    display: flex;
+    width: 100%;
+}
+.half_input input, .half_input select{
+    flex-basis: 50%;
+    margin: 8px;
+    display: flex;
+}
+.full_input input, .full_input select{
+    width: 100%;
+    margin: 8px;
+    display: flex;
+}
+.submit{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+.submit button{
+    color: white;
+    background-color: rgb(175, 20, 175);
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
